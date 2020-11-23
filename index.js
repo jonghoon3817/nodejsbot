@@ -31,8 +31,8 @@ client.on("guildMemberRemove", (member) => {
 client.on('message', (message) => {
   if(message.author.bot) return;
 
-  if(message.content == 'ping') {
-    return message.reply('pong');
+  if(message.content == '!랭크') {
+    return message.reply('랭크8 마이쮸 하나,랭크12 초콜릿 하나,랭크17 왕꿈틀이 젤리,랭크22 음료수 1500이하,랭크26 불닭볶음면,랭크32 삼김2,랭크40 삼김+불닭,나의사랑,종훈이의 사랑,지호의 사랑,랭크48 뚜레쥬르 빵 3000원까지,랭크57 넙적다리+라면,랭크62 cu7000원 상품권');
   }
 
   if(message.content == 'embed') {
