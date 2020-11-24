@@ -39,8 +39,8 @@ client.on('message', (message) => {
     return message.reply('싫어요');
   }
 
-  if(message.content == '알티야 가위바위보') {
-    return message.reply('걍 지세요');
+  if(message.content == '알티야 내돈') {
+    return message.reply('없어요');
   }
 
   if(message.content == 'embed') {
