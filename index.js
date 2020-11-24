@@ -41,11 +41,14 @@ client.on('message', (message) => {
 
   if(message.content == '알티야 내돈') {
     return message.reply('없어요');
+  }
 
   if(message.content == 'ㅇㅋ') {
     return message.reply('ㅇㅋ');
   }
 
+  if(message.content == '?') {
+    return message.reply('머요');
   }
 
   if(message.content == 'embed') {
