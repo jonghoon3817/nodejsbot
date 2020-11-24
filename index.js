@@ -39,6 +39,10 @@ client.on('message', (message) => {
     return message.reply('싫어요');
   }
 
+  if(message.content == '알티야 가위바위보') {
+    return message.reply('걍 지세요');
+  }
+
   if(message.content == 'embed') {
     let img = 'https://cdn.discordapp.com/icons/419671192857739264/6dccc22df4cb0051b50548627f36c09b.webp?size=256';
     let embed = new Discord.RichEmbed()
