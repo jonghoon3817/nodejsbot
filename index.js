@@ -35,6 +35,10 @@ client.on('message', (message) => {
     return message.reply('랭크8 마이쮸 하나\n 랭크12 초콜릿 하나\n 랭크17 왕꿈틀이 젤리\n 랭크22 음료수 1500이하\n 랭크26 불닭볶음면\n 랭크32 삼김2\n 랭크40 삼김+불닭,나의사랑,종훈이의 사랑,지호의 사랑\n 랭크48 뚜레쥬르 빵 3000원까지\n 랭크57 넙적다리+라면\n 랭크62 cu7000원 상품권');
   }
 
+  if(message.content == '@태종') {
+    return message.reply('왜 불러');
+  }
+
   if(message.content == 'embed') {
     let img = 'https://cdn.discordapp.com/icons/419671192857739264/6dccc22df4cb0051b50548627f36c09b.webp?size=256';
     let embed = new Discord.RichEmbed()
