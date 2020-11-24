@@ -38,8 +38,8 @@ client.on('message', (message) => {
 client.on('message', (message) => {
   if(message.author.bot) return;
 
-  if(message.content == '@태종') {
-    return message.reply('왜 불러');
+  if(message.content == '@태종#8220') {
+    return message.reply('왜 불러?');
   }
 
   if(message.content == 'embed') {
