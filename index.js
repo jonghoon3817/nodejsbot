@@ -43,6 +43,10 @@ client.on('message', (message) => {
     return message.reply('없어요');
   }
 
+if(message.content == '알티야 도박 올인') {
+    return message.reply('0.001배!!!');
+  }
+
   if(message.content == 'ㅇㅋ') {
     return message.reply('ㅇㅋ');
   }
