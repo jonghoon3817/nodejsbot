@@ -72,9 +72,9 @@ if(message.content == '알티야 도박 올인') {
   } else if(message.content == 'embed2') {
     let helpImg = 'https://images-ext-1.discordapp.net/external/RyofVqSAVAi0H9-1yK6M8NGy2grU5TWZkLadG-rwqk0/https/i.imgur.com/EZRAPxR.png';
     let commandList = [
-      {name: '!랭크', desc: '랭크 보상'},
-      {name: '', desc: ''},
-      {name: '', desc: ''},
+      {name: 'ping', desc: '현제 핑 상태'},
+      {name: 'embed', desc: 'emebed 예제1'},
+      {name: 'embed2', desc: 'embed2 예제2 (help)'},
       {name: '!전체공지', desc: 'dm으로 전체 공지 보내기'},
     ];
     let commandStr = '';
