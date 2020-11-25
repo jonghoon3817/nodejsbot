@@ -74,7 +74,7 @@ if(message.content == '알티야 도박 올인') {
     let commandList = [
       {name: 'ping', desc: '현제 핑 상태'},
       {name: 'embed', desc: 'emebed 예제1'},
-      {name: 'embed2', desc: 'embed2 예제2 (help)'},
+      {name: 'embed2', desc: 'embed 예제2 (help)'},
       {name: '!전체공지', desc: 'dm으로 전체 공지 보내기'},
     ];
     let commandStr = '';
