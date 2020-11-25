@@ -51,7 +51,7 @@ if(message.content == '알티야 도박 올인') {
     return message.reply('ㅇㅋ');
   }
 
-  if(message.content == skskskkwkkwkk') {
+  if(message.content == 'embed') {
     let img = 'https://cdn.discordapp.com/icons/419671192857739264/6dccc22df4cb0051b50548627f36c09b.webp?size=256';
     let embed = new Discord.RichEmbed()
       .setTitle('타이틀')
