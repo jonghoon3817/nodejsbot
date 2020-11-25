@@ -52,6 +52,7 @@ if(message.content == '알티야 도박 올인') {
   }
 
   if(message.content == '!도움') {
+    let img = '';
     let embed = new Discord.RichEmbed()
       .setThumbnail(img)
       .addBlankField()
