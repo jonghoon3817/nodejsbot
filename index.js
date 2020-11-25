@@ -52,7 +52,6 @@ if(message.content == '알티야 도박 올인') {
   }
 
   if(message.content == '!도움') {
-    let img = 'https://cdn.discordapp.com/icons/419671192857739264/6dccc22df4cb0051b50548627f36c09b.webp?size=256';
     let embed = new Discord.RichEmbed()
       .setThumbnail(img)
       .addBlankField()
