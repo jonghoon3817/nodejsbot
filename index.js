@@ -51,7 +51,7 @@ if(message.content == '알티야 도박 올인') {
     return message.reply('ㅇㅋ');
   }
 
-  if(message.content == '!도움') {
+  if(message.content == 'embed') {
     let img = '';
     let embed = new Discord.RichEmbed()
       .setTitle('타이틀')
@@ -69,7 +69,7 @@ if(message.content == '알티야 도박 올인') {
       .setFooter('', img)
 
     message.channel.send(embed)
-  } else if(message.content == 'embed2') {
+  } else if(message.content == '!도움') {
     let helpImg = 'https://images-ext-1.discordapp.net/external/RyofVqSAVAi0H9-1yK6M8NGy2grU5TWZkLadG-rwqk0/https/i.imgur.com/EZRAPxR.png';
     let commandList = [
       {name: 'ping', desc: '현제 핑 상태'},
