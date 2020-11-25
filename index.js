@@ -81,7 +81,7 @@ if(message.content == '알티야 도박 올인') {
     let embed = new Discord.RichEmbed()
       .setAuthor('Help of 콜라곰 BOT', helpImg)
       .setColor('#186de6')
-      .setFooter(`콜라곰 BOT ❤️`)
+      .setFooter(`discord bot`)
       .setTimestamp()
     
     commandList.forEach(x => {
