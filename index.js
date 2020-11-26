@@ -84,17 +84,6 @@ if(message.content == '알티야 도박 올인') {
       .setColor('#186de6')
       .setFooter(`discord bot`)
       .setTimestamp()
-
-   if(message.content == '알티야 내돈') {
-    let helpImg = 'https://images-ext-1.discordapp.net/external/RyofVqSAVAi0H9-1yK6M8NGy2grU5TWZkLadG-rwqk0/https/i.imgur.com/EZRAPxR.png';
-    let commandList = [
-      {name: '0원', desc: 'ㅋㅋ'},
-    ];
-    let commandStr = '';
-    let embed = new Discord.RichEmbed()
-      .setColor('#186de6')
-      .setFooter(`<@${message.author.id}>` + '님의 은행잔고')
-      .setTimestamp()
     
     commandList.forEach(x => {
       commandStr += `• \`\`${changeCommandStringLength(`${x.name}`)}\`\` : **${x.desc}**\n`;
