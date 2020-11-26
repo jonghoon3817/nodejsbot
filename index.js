@@ -36,7 +36,7 @@ client.on('message', (message) => {
   }
 
   if(message.content == '!반복') {
-		for(let index = 0; index<4; index++)
+		for(let index = 0; index<3; index++)
     return message.reply('텍스트');
    }
 
