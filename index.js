@@ -36,8 +36,8 @@ client.on('message', (message) => {
   }
 
   if(message.content == '!반복') {
-		for(var index = 0; index<3; index++);
-    return message.reply('텍스트');
+   for(var i = 0; i < 4; i++);
+    console.log(i)
    }
 
   if(message.content == '알티야 내돈') {
