@@ -74,7 +74,7 @@ if(message.content == '알티야 도박 올인') {
     let helpImg = 'https://images-ext-1.discordapp.net/external/RyofVqSAVAi0H9-1yK6M8NGy2grU5TWZkLadG-rwqk0/https/i.imgur.com/EZRAPxR.png';
     let commandList = [
       {name: '!랭크', desc: '랭킹 보상'},
-      {name: 'embed', desc: 'emebed 예제1'},
+      {name: 'embed', desc: ''},
       {name: 'embed2', desc: 'embed 예제2 (help)'},
       {name: '!전체공지', desc: 'dm으로 전체 공지 보내기'},
     ];
@@ -93,7 +93,7 @@ if(message.content == '알티야 도박 올인') {
     let commandStr = '';
     let embed = new Discord.RichEmbed()
       .setColor('#186de6')
-      .setFooter(`<@${message.author.id}>` + '니의 은행잔고')
+      .setFooter(`<@${message.author.id}>` + '님의 은행잔고')
       .setTimestamp()
     
     commandList.forEach(x => {
