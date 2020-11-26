@@ -80,9 +80,20 @@ if(message.content == '알티야 도박 올인') {
     ];
     let commandStr = '';
     let embed = new Discord.RichEmbed()
-      .setAuthor('Help of 콜라곰 BOT', helpImg)
+      .setAuthor('Help of Dscord Bot', helpImg)
       .setColor('#186de6')
       .setFooter(`discord bot`)
+      .setTimestamp()
+
+   if(message.content == '알티야 내돈') {
+    let helpImg = 'https://images-ext-1.discordapp.net/external/RyofVqSAVAi0H9-1yK6M8NGy2grU5TWZkLadG-rwqk0/https/i.imgur.com/EZRAPxR.png';
+    let commandList = [
+      {name: '0원', desc: ''},
+    ];
+    let commandStr = '';
+    let embed = new Discord.RichEmbed()
+      .setColor('#186de6')
+      .setFooter(`<@${message.author.id}>` + '니의 은행잔고')
       .setTimestamp()
     
     commandList.forEach(x => {
