@@ -37,7 +37,7 @@ client.on('message', (message) => {
 
   if(message.content == '!반복') {
    for(var i = 0; i < 4; i++);
-    return message.reply('i');
+    message.log('i');
    }
 
   if(message.content == '알티야 내돈') {
